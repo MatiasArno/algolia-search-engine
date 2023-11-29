@@ -1,0 +1,27 @@
+{
+  "name": "algolia-search-system",
+  "version": "1.0.0",
+  "description": "Basic REST API using Algolia as a search tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "tsnd --clear ./src/dev.ts"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Algolia"
+  ],
+  "author": "Arno",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "16.3.1",
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.3.2"
+  },
+  "dependencies": {
+    "algoliasearch": "4.20.0",
+    "express": "4.18.2"
+  }
+}
